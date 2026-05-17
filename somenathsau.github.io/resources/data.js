@@ -1,11 +1,11 @@
 const portfolioData = {
     // Personal Details
     name: "KRISHA SHAH",
-    role: "Data Analyst @ Landmine Soft",
-    microline: "2+ years experience | Dashboarding | Automation | Gen AI",
+    role: "Data Analyst",
+    microline: "Dashboarding | Automation | Gen AI",
     heroImage: "resources/assets/hero/krishaaaa.jpg",
     resumeLink: "resources/assets/docs/K resume.pdf",
-    email: "mailto:shahkrishaaa13@gmail.com",
+    email: "shahkrishaaa13@gmail.com",
 
     bio: "✔ Transform complex data into insights that improve reporting efficiency. " +
         "<br>✔ Build automated dashboards using Python, SQL, and Power BI. " +
@@ -50,166 +50,161 @@ const portfolioData = {
 
     // Education
     education: [{
-            badge: "KIIT",
-            institution: "Kalinga Institute of Industrial technology",
-            years: "2022–2024",
-            degree: "Master of Computer Applications",
-            location: "BBSR, Odisha",
-            score: "7.83",
+            badge: "MBIT",
+            institution: "Madhuben And Banubhai Institute of Technology",
+            years: "2023–2027",
+            degree: "B.Tech in Computer Engineering",
+            location: "Anand, Gujarat",
+            score: "8.61",
             scoreLabel: "CGPA",
-            tag: "Computer Applications",
+            tag: "Computer Engineering",
             description: "Specializing in Data Science and Big Data",
-            logo: "resources/assets/icons/kiit-logo.webp",
-            website: "https://kiit.ac.in/"
+            logo: "resources/assets/images/mbit.png",
+            website: "https://www.mbit.edu.in/"
         },
-        {
-            badge: "TACT",
-            institution: "Trident Academy of Creative Technology",
-            years: "2018–2021",
-            degree: "Bachelor of Computer Applications",
-            location: "BBSR, Odisha",
-            score: "7.47",
-            scoreLabel: "CGPA",
-            tag: "Computer Application",
-            description: "Foundational programming and database management",
-            logo: "resources/assets/icons/trident-logo.webp",
-            website: "https://tact.ac.in/"
-        },
+        // {
+        //     badge: "TACT",
+        //     institution: "Trident Academy of Creative Technology",
+        //     years: "2018–2021",
+        //     degree: "Bachelor of Computer Applications",
+        //     location: "BBSR, Odisha",
+        //     score: "7.47",
+        //     scoreLabel: "CGPA",
+        //     tag: "Computer Application",
+        //     description: "Foundational programming and database management",
+        //     logo: "resources/assets/icons/trident-logo.webp",
+        //     website: "https://tact.ac.in/"
+        // },
         {
             badge: "XII",
-            institution: "Sai +2 Science College",
-            years: "2016–2018",
+            institution: "L.P. Savani High School",
+            years: "2021–2023",
             degree: "Higher Secondary Examination",
-            location: "Palbani, Baripada",
+            location: "Surat, Gujarat",
             score: "Passed",
             scoreLabel: "",
             tag: "Science",
             description: "",
-            logo: "resources/assets/icons/sai-logo.webp",
-            website: "https://saihss.in/"
+            logo: "resources/assets/images/lps.jpg",
+            website: "https://lpsavani.org/"
         }
     ],
 
     // Experience
     experience: [{
-            role: "Data Scientist Intern",
-            company: "CodeClause",
+            role: "Computer Vision Intern",
+            company: "Insignex",
             location: "Remote",
-            duration: "Nov 2023 – Dec 2023",
+            duration: "May 2026 – Jun 2026",
             type: "Internship",
-            metrics: [{
-                    val: "85%+",
-                    label: "Accuracy"
-                },
-                {
-                    val: "2",
-                    label: "ML Models"
-                }
-            ],
-            techStack: ["Python", "Scikit-learn", "Numpy", "Pandas", "Exploratory Data Analysis"],
-            description: "Developed machine learning models for Speech Emotion Recognition and Loan Risk Prediction, " +
-                "and conducted large-scale Uber ride data analysis. Improved model performance through feature " +
-                "engineering, exploratory data analysis (EDA), and optimization, achieving 85%+ accuracy."
+            // metrics: [{
+            //         val: "85%+",
+            //         label: "Accuracy"
+            //     },
+            //     {
+            //         val: "2",
+            //         label: "ML Models"
+            //     }
+            // ],
+            techStack: ["Python", "Django", "Numpy", "OpenCV", "HTML/CSS"],
+            description: "Working as a Trainee Intern at Insignex on a Real-Time Image Processing project using Django. Gaining hands-on experience in backend development, real-time processing workflows, and industry-level problem solving focused on image and video processing technologies."
         },
         {
-            role: "AI Contributor",
-            company: "Outlier AI",
-            location: "Remote",
-            duration: "Sep 2024 – May 2025",
-            type: "Freelance",
-            metrics: [{
-                    val: "500+",
-                    label: "Tasks done"
-                },
-                {
-                    val: "95%",
-                    label: "Accuracy"
-                }
-            ],
-            techStack: ["RLHF", "SFT Annotation", "Response Evaluation", "AI safety", "Prompt Engineering", "LLM Assessment"],
-            description: "Completed 500+ RLHF and SFT evaluation tasks, reviewing LLM responses across open-ended " +
-                "and structured prompts. Assessed outputs for instruction adherence, truthfulness, " +
-                "reasoning quality, and safety compliance, maintaining 95%+ quality accuracy."
+            role: "Vice Chairperson - IEEE WIE",
+            company: "MBIT IEEE Student Branch",
+            location: "Anand, Gujarat",
+            duration: "March 2024 – Present",
+            type: "Administrative Volunteer",
+            // metrics: [{
+            //         val: "500+",
+            //         label: "Tasks done"
+            //     },
+            //     {
+            //         val: "95%",
+            //         label: "Accuracy"
+            //     }
+            //],
+            techStack: ["Leadership", "Event Management", "Team Collaboration", "Public Speaking", "Technical Coordination", "Community Engagement"],
+            description: "Serving as the Vice Chairperson of IEEE Women in Engineering (WIE) at MBIT-CVM University, collaborating with a passionate team to organize impactful initiatives, promote innovation, and empower women in technology through leadership, teamwork, and community engagement."
         },
-        {
-            role: "Junior Data Analyst",
-            company: "Landmine Soft",
-            location: "Hyderabad, India",
-            duration: "Feb 2023 – Mar 2024",
-            type: "Full Time",
-            metrics: [{
-                    val: "5+",
-                    label: "Ad-hoc reports delivered"
-                },
-                {
-                    val: "20%",
-                    label: "Reduction in query runtime"
-                }
-            ],
-            techStack: ["Python", "SQL", "Power BI", "Excel", "Pandas", "NumPy", "Data Cleaning", "Data Visualization"],
-            description: "Owned the end-to-end data scrubbing and validation process " +
-                "for raw datasets, ensuring 100% data integrity before senior-level analysis."
-        },
-        {
-            role: "Data Analyst",
-            company: "Landmine Soft",
-            location: "Hyderabad, India",
-            duration: "Apr 2024 – Present",
-            type: "Full Time",
-            metrics: [{
-                    val: "10+",
-                    label: "Dashboards built"
-                },
-                {
-                    val: "1M+",
-                    label: "Records analyzed"
-                }
-            ],
-            techStack: ["Python", "SQL", "Power BI", "Excel", "Pandas", "NumPy", "Data Cleaning", "Data Visualization"],
-            description: "Analyzed large datasets using Python (Pandas, NumPy) and SQL to extract actionable insights. " +
-                "Built interactive Power BI dashboards and automated reporting processes, reducing manual " +
-                "effort by 30%. Performed data cleaning, transformation, and exploratory data analysis (EDA) " +
-                "to support business decision-making."
-        }
+    //     {
+    //         role: "Junior Data Analyst",
+    //         company: "Landmine Soft",
+    //         location: "Hyderabad, India",
+    //         duration: "Feb 2023 – Mar 2024",
+    //         type: "Full Time",
+    //         metrics: [{
+    //                 val: "5+",
+    //                 label: "Ad-hoc reports delivered"
+    //             },
+    //             {
+    //                 val: "20%",
+    //                 label: "Reduction in query runtime"
+    //             }
+    //         ],
+    //         techStack: ["Python", "SQL", "Power BI", "Excel", "Pandas", "NumPy", "Data Cleaning", "Data Visualization"],
+    //         description: "Owned the end-to-end data scrubbing and validation process " +
+    //             "for raw datasets, ensuring 100% data integrity before senior-level analysis."
+    //     },
+    //     {
+    //         role: "Data Analyst",
+    //         company: "Landmine Soft",
+    //         location: "Hyderabad, India",
+    //         duration: "Apr 2024 – Present",
+    //         type: "Full Time",
+    //         metrics: [{
+    //                 val: "10+",
+    //                 label: "Dashboards built"
+    //             },
+    //             {
+    //                 val: "1M+",
+    //                 label: "Records analyzed"
+    //             }
+    //         ],
+    //         techStack: ["Python", "SQL", "Power BI", "Excel", "Pandas", "NumPy", "Data Cleaning", "Data Visualization"],
+    //         description: "Analyzed large datasets using Python (Pandas, NumPy) and SQL to extract actionable insights. " +
+    //             "Built interactive Power BI dashboards and automated reporting processes, reducing manual " +
+    //             "effort by 30%. Performed data cleaning, transformation, and exploratory data analysis (EDA) " +
+    //             "to support business decision-making."
+    //     }
     ],
 
     // Projects
     projects: [{
-            title: "Uber Data Analysis",
-            description: "Analyzed 10K+ Uber ride records to uncover demand trends and peak-hour patterns.",
-            keyInsight: "Peak ride demand increases by 35% during 6–9 PM.",
-            problem: "Uber struggles with vehicle allocation during varying demand periods, leading to longer wait times and lost revenue.",
-            dataset: "10,000+ historical Uber ride records containing timestamps, pickup/drop-off locations, and trip statuses.",
+            title: "CampusEase",
+            description: "An all-in-one smart campus app for attendance, navigation, notices, schedules, and student utilities.",
+            keyInsight: "One app improves student productivity",
+            problem: "Students face scattered campus information and inefficient daily management.",
+            // dataset: "10,000+ historical Uber ride records containing timestamps, pickup/drop-off locations, and trip statuses.",
             approach: [
-                "Performed extensive data cleaning to handle missing values and correct datetime formats.",
-                "Conducted Exploratory Data Analysis (EDA) to identify trip frequency by hour, day, and month.",
-                "Visualized demand-supply gaps across different city zones using heatmaps.",
-                "Analyzed cancellation rates and reasons during peak traffic hours."
+                "Built a centralized mobile platform with real-time features and role-based access for students and faculty.",
+                "Integrated real-time updates and role-based access",
+                "Simplified navigation and student daily task management"
             ],
-            businessImpact: "Identified key surge periods, allowing for optimized driver allocation which could potentially reduce wait times by 15% and increase daily revenue.",
-            techStack: ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
-            category: "Data Analysis",
-            image: "resources/assets/images/Uber_Project.webp",
-            codeLink: "https://github.com/somenathsau/CodeClause-data-science-internship/tree/main/Project%203%20-%20Uber%20Data%20Analysis",
+            businessImpact: "Enhances campus efficiency, communication, and overall student experience.",
+            techStack: ["Flutter", "PostgresSQL", "Node JS"],
+            category: "Mobile Development",
+            image: "resources/assets/images/campusease.png",
+            codeLink: "https://github.com/shahkrishaaa/CAMPUSEASE",
             demoLink: "https://nbviewer.org/github/somenathsau/CodeClause-data-science-internship/blob/main/Project%203%20-%20Uber%20Data%20Analysis/Uber%20data%20analysis.ipynb"
         },
         {
-            title: "Crime Data Analysis in India",
-            description: "Analyzed historical crime datasets to identify trends and patterns in criminal activities across different states.",
-            keyInsight: "Property crimes constitute over 40% of reported incidents in urban centers.",
-            problem: "Law enforcement agencies lack clear visibility into macro-level crime trends, hindering effective resource deployment.",
-            dataset: "Comprehensive dataset from 2013 containing state-wise crime statistics, categorized by offense type and demographic.",
+            title: "Image Processing using Django",
+            description: "Developed an image processing application using Django framework, enabling efficient image manipulation and analysis.",
+            keyInsight: "Real-time automation improves processing speed and accuracy",
+            problem: "Slow and inefficient image processing workflows hinder productivity and accuracy in handling large volumes of images.",
+            // dataset: "Large-scale image dataset containing various object categories for training and testing.",
             approach: [
-                "Cleaned and standardized state-level reporting inconsistencies.",
-                "Developed correlation matrices to find relationships between different crime categories.",
-                "Created comparative visual reports to highlight high-risk zones.",
-                "Segmented data by demographic impact to understand vulnerable populations."
+                "Developed backend workflows using Django",
+                "Integrated real-time image processing pipelines",
+                "Optimized processing and data handling performance",
+              
             ],
             businessImpact: "Provided a data-driven foundation for predictive policing strategies, enabling more targeted patrol deployments in high-risk zones.",
-            techStack: ["Python", "Matplotlib", "Scikit-learn", "Pandas"],
-            category: "Data Analysis",
-            image: "resources/assets/images/crime_correlation_heatmap.webp",
-            codeLink: "https://github.com/somenathsau/Crime_Report_in_India_2013",
+            techStack: ["Python", "Django", "OpenCV", "HTML/CSS"],
+            category: "Computer Vision",
+            image: "resources/assets/images/imagerec.png",
+            codeLink: "https://github.com/Insignexs/cw2604_web_img_proc",
             demoLink: "https://nbviewer.org/github/somenathsau/Crime_Report_in_India_2013/blob/main/Crime_Report_Analysis_2013.ipynb"
         },
         // {
@@ -332,34 +327,34 @@ const portfolioData = {
 
     // Certifications
     certifications: [{
-            title: "Career Essentials in Data Analysis by Microsoft and LinkedIn",
-            issuer: "LinkedIn Learning",
-            year: "June 2025",
-            credentialLink: "https://www.linkedin.com/learning/certificates/1899cbc5a9bcf6d12c823c702aeed4c975e463580ebceb87222d61ca65718aee" // Replace with actual link
+            title: "AI Dashboards with Power BI",
+            issuer: "Skill Nation",
+            year: "July 2025",
+            credentialLink: "https://www.linkedin.com/posts/shahkrishaaa_powerbi-aiindata-datavisualization-activity-7355556663631695872-ZfWm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEUxtmsBDkmW0f2IqRaTpPRf84MJtgOs1Ek" // Replace with actual link
         },
         {
-            title: "Deloitte Australia - Data Analytics Job Simulation",
-            issuer: "Forage",
-            year: "May 2025",
-            credentialLink: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_cYkMuanGSYDTrvMry_1748362553606_completion_certificate.pdf" // Replace with actual link
+            title: "Power BI Workshop for Data Analysts",
+            issuer: "Office Master",
+            year: "July 2025",
+            credentialLink: "https://certx.in/certificate/36a28147-6eed-47a5-8342-e5f926ebba61518406" // Replace with actual link
         },
-        {
-            title: "Commonwealth Bank - Introduction to Data Science Job Simulation",
-            issuer: "Forage",
-            year: "May 2025",
-            credentialLink: "https://www.theforage.com/completion-certificates/2sNmYuurxgpFYawco/smwfytX3mcLboA9bf_2sNmYuurxgpFYawco_cYkMuanGSYDTrvMry_1747032386986_completion_certificate.pdf" // Replace with actual link
-        },
-        {
-            title: "Cognizant - Artificial Intelligence Job Simulation",
-            issuer: "Forage",
-            year: "June 2024",
-            credentialLink: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/5N2ygyhzMWjKQmgCK_Cognizant_cYkMuanGSYDTrvMry_1718646885974_completion_certificate.pdf" // Replace with actual link
-        },
+        //{
+        //     title: "Commonwealth Bank - Introduction to Data Science Job Simulation",
+        //     issuer: "Forage",
+        //     year: "May 2025",
+        //     credentialLink: "https://www.theforage.com/completion-certificates/2sNmYuurxgpFYawco/smwfytX3mcLboA9bf_2sNmYuurxgpFYawco_cYkMuanGSYDTrvMry_1747032386986_completion_certificate.pdf" // Replace with actual link
+        // },
+        // {
+        //     title: "Cognizant - Artificial Intelligence Job Simulation",
+        //     issuer: "Forage",
+        //     year: "June 2024",
+        //     credentialLink: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/5N2ygyhzMWjKQmgCK_Cognizant_cYkMuanGSYDTrvMry_1718646885974_completion_certificate.pdf" // Replace with actual link
+        // },
         {
             title: "AWS Academy Cloud Foundations",
             issuer: "Amazon Web Services (AWS)",
-            year: "Sept 2023",
-            credentialLink: "https://www.credly.com/badges/2022e39a-a797-4f35-a533-5a15904b193b" // Replace with actual link
+            year: "March 2026",
+            credentialLink: "https://www.credly.com/badges/f7d439f2-a52f-4060-8066-eedc65cdb5c4/public_url" // Replace with actual link
         }
     ]
 };
